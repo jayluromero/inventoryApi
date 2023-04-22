@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InventarioApi</name>
+    </assembly>
+    <members>
+        <member name="T:InventarioApi.Migrations.MigracionInicial">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.MigracionInicial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.MigracionInicial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.MigracionInicial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:InventarioApi.Migrations.CategoriaClientes">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.CategoriaClientes.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.CategoriaClientes.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.CategoriaClientes.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:InventarioApi.Migrations.Clientes">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.Clientes.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.Clientes.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:InventarioApi.Migrations.Clientes.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:InventarioApi.Models.Categoria.Id">
+            <summary>
+            Identificador
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Categoria.NombreCategoria">
+            <summary>
+            Nombre Categoria
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Categoria.Imagen">
+            <summary>
+            Imagen de la Categoria
+            </summary>
+        </member>
+        <member name="T:InventarioApi.Models.Cliente">
+            <summary>
+            Clase de contactos
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Cliente.Id">
+            <summary>
+            Identificador
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Cliente.Nombre">
+            <summary>
+            Nombre del Cliente
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Cliente.Apellido">
+            <summary>
+            Apellido del cliente
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Cliente.FechaNacimiento">
+            <summary>
+            Fecha de Nacimiento
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Cliente.EsJuridico">
+            <summary>
+            Contacto de Tipo Juridico o Natural
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Cliente.Identificacion">
+            <summary>
+            Identificación del Contacto
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Cliente.EsMasculino">
+            <summary>
+            Contacto de Sexo Masculino o Femenino
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Productos.Id">
+            <summary>
+            Identificador
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Productos.Producto">
+            <summary>
+            Nombre del Producto
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Productos.Precio">
+            <summary>
+            Precio del Producto
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Productos.Cantidad">
+            <summary>
+            Cantidad de Productos en Inventario
+            </summary>
+        </member>
+        <member name="P:InventarioApi.Models.Productos.FechaIngreso">
+            <summary>
+            Fecha de Ingreso del Producto
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>InventarioApi</id>
+    <version>1.0.0</version>
+    <authors>InventarioApi</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="Microsoft.AspNetCore.OpenApi" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.InMemory" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Web.CodeGeneration.Design" version="7.0.6" exclude="Build,Analyzers" />
+        <dependency id="Swashbuckle.AspNetCore" version="6.4.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net7.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net7.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="/Users/joseluisromero/Projects/InventarioApi/InventarioApi/bin/Debug/net7.0/InventarioApi.runtimeconfig.json" target="lib/net7.0/InventarioApi.runtimeconfig.json" />
+    <file src="/Users/joseluisromero/Projects/InventarioApi/InventarioApi/bin/Debug/net7.0/InventarioApi.dll" target="lib/net7.0/InventarioApi.dll" />
+    <file src="/Users/joseluisromero/Projects/InventarioApi/InventarioApi/appsettings.Development.json" target="content/appsettings.Development.json" />
+    <file src="/Users/joseluisromero/Projects/InventarioApi/InventarioApi/appsettings.Development.json" target="contentFiles/any/net7.0/appsettings.Development.json" />
+    <file src="/Users/joseluisromero/Projects/InventarioApi/InventarioApi/appsettings.json" target="content/appsettings.json" />
+    <file src="/Users/joseluisromero/Projects/InventarioApi/InventarioApi/appsettings.json" target="contentFiles/any/net7.0/appsettings.json" />
+  </files>
+</package>
